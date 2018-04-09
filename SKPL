@@ -154,7 +154,9 @@ Asumsi dan Ketergantungan
 	3.6.1	Data Store vs E-R
 
 3.7	Ringkasan Kebutuhan
-	Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional.Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Skripsi-Tor.
+	Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional.
+	Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, 
+	karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Skripsi-Tor.
 	3.7.1	Kebutuhan Fungsional
 	Kebutuhan Fungsional
 		-	Sistem dapat mengklasifikasikan produk pendidikan  berdasarkan bidang dan kegunaan
