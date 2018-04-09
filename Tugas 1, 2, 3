@@ -1,0 +1,40 @@
+	Tugas 1 (system request)
+-	Nama Project	:	Skripsi-Tor untuk distribusi produk skripsi bidang pendidikan 
+-	Project Sponsor	:	Startup
+-	Business Needs	:	-	Menyalurkan produk hasil skripsi bidang pendidikan ke lembaga-lembaga pendidikan untuk dapat digunakan sebagai media pembelajaran
+-	Business Requirements	:	-	Informasi produk hasil skripsi bidang pendidikan
+-	Business Value	:	-	Mahasiswa dapat menambah pengalaman baru dalam membuat dan memasarkan produk skripsi yang sudah dibuat. 
+
+-	Special issues	:	-	Sistem informasi dibangun dengan teknologi web responsive
+-	Disediakan fitur custom produk skripsi
+
+
+	Tugas 2
+Kebutuhan Fungsional
+-	Sistem dapat mengklasifikasikan produk pendidikan  berdasarkan bidang dan kegunaan
+-	Sistem menyediakan layanan custom produk
+-	Sistem menyediakan registrasi akun untuk pengguna
+-	Sistem memberikan progress pembuatan produk custom
+-	Sistem memberikan layanan feedback, rating untuk produk yang terjual
+
+Kebutuhan Non-Fungsional
+-	Sistem dapat diakses pada web desktop dan mobile dengan desain responsive
+-	Pengguna yang memiliki akun dapat berperan sebagai penjual atau pembeli produk
+-	Pengguna dapat memantau sejauh maan proses produk dibuat
+-	Sistem memberikan layanan komunikasi antar pengguna
+-	Sistem memberikan rekomendasi produk yang relevan terhadap kebutuhan pengguna  
+
+
+	Tugas 3
+Use case name 		: Disributor produk skripsi dalam bidang pendidikan
+-	Actor			: Mahasiswa Jurusan Teknik Informatika Universitas Negeri Malang
+-	Description		: Mahasiswa Jurusan Teknik Informatika Universitas Negeri Malang dapat melihat list lowongan pekerjaan berdasarkan hasil rekomendasi jenis pekerjaan, dimana list lowongan pekerjaan tersebut telah dikelompokkan berdasarkan kategorinya (contoh: perusahaan, instansi, kemitraan, dst)
+-	Trigger			: Mahasiswa ingin melihat lowongan pekerjaan yang tersedia berdasarkan jenis pekerjaan yang sudah direkomendasikan
+-	Type			: external
+-	Precondition	: +	Mahasiswa berada di menu rekomendasi kategori pekerjaan
+					  +	Penyimpanan data lowongan pekerjaan up-to-date dan online
+-	Normal Course	: Melihat lowongan pekerjaan yang tersedia
+					  + Mahasiswa men-klik salah satu rekomendasi pekerjaan
+-	Post Condition	:	System menampilkan list lowongan pekerjaan berdasarkan jenis pekerjaan yang dipilih, dimana list lowongan pekerjaan tersebut teah dikelompokkan berdasarkan kategori
+-	Exceptions		: +	System menampilkan pop up “lowongan pekerjaan tidak tersedia”
+					  + Browser menampilkan tulisan request time-out
