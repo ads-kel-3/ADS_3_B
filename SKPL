@@ -13,3 +13,35 @@ sebagai kelengkapan Tugas Akhir di Jurusan Teknik Elektro Prodi Teknik Informati
 Abstrak:
 Dokumen ini berisikan penjelasan mengenai sebuah sistem informasi yang berfungsi sebagai media pendistribusian produk skripsi bidang 
 pendidikan.
+
+1. Pendahuluan
+ 
+Tujuan
+Dokumen ini dibuat untuk menjelaskan Spesifikasi Kebutuhan Perangkat Lunak (SKPL) yang akan digunakan pada Sistem Informasi 
+pendistribusian produk skripsi. Penjelasan SKPL meliputi deskripsi umum perangkat lunak dan kebutuhan perangkat lunak. Perangkat lunak 
+yang dibangun bernama Skrip-Tor (Skripsi Distributor). Kebutuhan perangkat lunak sangat dibutuhkan oleh pengembang dan pembangun system 
+perangkat lunak.
+
+Ruang Lingkup Perangkat Lunak
+Skrip-Tor merupakan sistem informasi berbasis web yang  memuat informasi produk-produk skripsi di bidang pendidikan, seperti modul 
+pembelajaran, trainer, dan produk lainnya. Sistem ini akan membantu pendistribusian produk skripsi agar dapat sampai pada sasaran 
+dibuatnya produk, sehingga mencegah tidak termanfaatkannya produk yang telah dibuat. Pengguna perangkat lunak ini terdiri dari 3 
+pengguna, yaitu admin, mahasiswa (penjual) dan pembeli produk. Pengguna dapat melakukan pendaftaran, login, melihat katalog produk, 
+memilih produk, melakukan interaksi antara penjual dan pembeli, memesan produk secara custom, serta validasi produk. Mahasiswa pemilik 
+produk akan mengunggah deskripsi produk ke dalam sistem ini, pembeli dapat memilih produk yang diinginkan dan seorang admin akan 
+melakukan validasi transaksi antara penjual dan pembeli.
+
+Target Audience
+Dokumen ini harus dapat dipahami oleh pembangun dan pengguna yang bertindak sebagai admin. Pembangun perangkat lunak dapat mengetahui 
+kebutuhan perangkat lunak untuk melakukan perancangan secara tepat dan benar. Admin dapat menggunakan dokumen ini untuk mengetahui 
+bagaimana system bekerja dengan kebutuhan-kebutuhan yang telah dijelaskan.
+
+Definisi, Istilah dan Singkatan
+Guna memberikan gambaran yang sama terhadap beberapa definisi, istilah dan singkatan yang digunakan di dokumen ini, perlu dijelaskan 
+sebagaimana berikut:
+DFD	: Data Flow Diagram. Diagram yang menggambarkan aliran data. 
+IEEE	: Institute of Electrical and Electronics Engineers, Adalah standart internasional untuk pengembang perangkat lunak
+Interface : Antarmuka antara perangkat lunak dan pengguna  
+SKPL	: Spesifikasi Kebutuhan Perangkat Lunak
+SRS	: Software Requirement Specification, Adalah dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
+Use Case : Kegiatan atau urutan interaksi yang saling berkaitan antara sistem dan aktor
