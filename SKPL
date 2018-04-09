@@ -45,3 +45,74 @@ Interface : Antarmuka antara perangkat lunak dan pengguna
 SKPL	: Spesifikasi Kebutuhan Perangkat Lunak
 SRS	: Software Requirement Specification, Adalah dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
 Use Case : Kegiatan atau urutan interaksi yang saling berkaitan antara sistem dan aktor
+
+2. Deskripsi Umum
+
+Tentang Perangkat Lunak
+Skripsi Tor atau Distribusi Skripsi merupakan suatu aplikasi berbasis web yang digunakan untuk mendistribusikan produk skripsi dalam 
+bidang pendidikan. Pengguna aplikasi dapat melakukan pendaftaran terlebih dahulu sebagai pembeli atau pengguna yang telah terdaftar 
+sehingga dapat melakukan login ke dalam aplikasi. Pengguna yang tidak melakukan pendaftaran, dapat melihat produk, kategori produk, 
+harga, deskripsi roduk yang ditawarkan. Dalam aplikasi ini terdapat form pemebelian produk, dimana pembeli dapat memilih produk yang 
+ingin dibeli beserta jumlahnya. Pengguna melakukan pembayaran melalui e-banking yang sudah terdapat dalam form pembelian. 
+
+Sistem ini dikelola oleh seoarang admin ang bertugas untuk mengudate data. Admin juga bertugas untuk memvalidasi antara penjual dan 
+pembeli.
+
+Fungsi-fungsi Perangkat Lunak
+Pada aplikasi ini pengguna akan ditampilkan katalog produk, pengguna dapat melakukan pendaftaran di form pendaftaran untuk memilih 
+sebagai pembeli atau penjual. Terdapat form pembelian untuk melakukan proses registrasi pembelian
+
+Karakteristik dan Klasifikasi Pengguna
+-	Pengunjung memili tugas untuk melihat tampilan web, memiliki hak akses dapat melakukan pendaftaran atau hanya melihat lihat katalog.
+-	Pembeli memliki tugas untuk memilih produk yang ingin dibeli, memiliki hak akses login sebagai pembeli.
+-	Admin memiliki tugas untuk memperbaharui katalog, data penjualan, data pelanggan, data pembeli. Memiliki hak akses login sebagai admin, mengontrol panel server, memvalidasi transaksi antara penjual dan pembeli.
+-	Bank memiliki tugas mengirimkan notifikasi pembayaran. 
+
+Lingkungan Operasi
+Server: 
+Komputer dengan spesifikasi hardware minimal sebagai berikut : 
+-	Processor Intel Pentium 4 3 Ghz 
+-	 Motherboard support internet connection 
+-	2 GB RAM 
+-	500 GB Hard Disk Drive utama 
+-	500 GB Hard Disk Drive backup 
+-	VGA Card 256 MB 
+-	NIC FastEthernet atau Gigabit Ethernet 
+-	Mouse 
+-	Keyboard 
+-	Monitor 
+-	Power Supply 
+
+Komputer yang minimal telah terinstall software sebagai berikut : 
+-	Browser Google Chrome/Mozilla Firefox 
+-	PDF reader 
+-	Word Processor 
+-	Apache HTTP Server 
+-	Mail Server 
+
+DBMS (Database Management System) minimal MySQL 5.0.20 ke atas 
+Koneksi internet dengan bandwidth minimal 1 Mbps 
+OS minimal Windows 2003 Server atau Ubuntu Server
+
+Client: 
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+-	Processor Intel Pentium 4 2 Ghz 
+-	Motherboard support internet connection 
+-	1 GB RAM 
+-	80 GB Hard Disk Drive 
+-	 VGA Card 64 MB 
+-	Mouse 
+-	Keyboard 
+-	Monitor 
+-	Power Supply 
+
+Batasan Desain dan Implementasi
+Dalam pembuatan sistem informasi ini terdapat beberapa batasan masalah yang digunakan, antara lain:
+-	Pembeli dapat membeli produk apabila sudah melakukan pendaftaran atau registrasi sehingga dapat login.
+-	Dalam aplikasi ini menyediakan form pembelian dan form pembayaran terhadap produk yang akan dibeli.
+-	Pembeli dan pengguna tidak dapat bertransaksi sebelum admin melakukan validasi.
+-	Pembeli dan pengguna dapat berinteraksi melalui room chat yang tersedia. 
+
+Dokumentasi Bagi Pengguna
+
+Asumsi dan Ketergantungan
