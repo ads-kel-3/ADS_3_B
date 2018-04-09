@@ -116,3 +116,59 @@ Dalam pembuatan sistem informasi ini terdapat beberapa batasan masalah yang digu
 Dokumentasi Bagi Pengguna
 
 Asumsi dan Ketergantungan
+
+
+
+
+
+3.	Deskripsi Kebutuhan
+3.1	Kebutuhan Antarmuka Eksternal
+	3.1.1	Antarmuka pemakai
+			*) Tampilan login
+			*) Tampilan register
+			*) Tampilan homepage
+			*) Tampilan produk
+			*) Tampilan form pembelian
+			*) Tampilan diskusi
+			*) Tampilan profil
+			*) Tampilan konfirmasi
+			
+	3.1.2	Antar muka perangkat keras
+	3.1.3	Antar muka perangkat lunak
+	3.1.4	Antarmuka komunikasi
+
+3.2	Kebutuhan Fungsional
+	3.2.1	Diagram Konteks
+	3.2.2	DFD Level
+	3.2.3	Spesifikasi Proses
+	3.2.4	Data Store
+
+3.3	Kebutuhan Data
+	3.3.1	E-R Diagram
+
+3.4	Kebutuhan Non-Fungsional
+
+3.5	Batasan Perancangan
+
+3.6	Keruntutan (traceability)
+	3.6.1	Data Store vs E-R
+
+3.7	Ringkasan Kebutuhan
+	Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional.Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Skripsi-Tor.
+	3.7.1	Kebutuhan Fungsional
+	Kebutuhan Fungsional
+		-	Sistem dapat mengklasifikasikan produk pendidikan  berdasarkan bidang dan kegunaan
+		-	Sistem menyediakan layanan custom produk
+		-	Sistem menyediakan registrasi akun untuk pengguna
+		-	Sistem memberikan progress pembuatan produk custom
+		-	Sistem memberikan layanan feedback, rating untuk produk yang terjual
+
+	3.7.2	Kebutuhan Non-Fungsional
+	Kebutuhan Non-Fungsional
+		-	Sistem dapat diakses pada web desktop dan mobile dengan desain responsive
+		-	Pengguna yang memiliki akun dapat berperan sebagai penjual atau pembeli produk
+		-	Pengguna dapat memantau sejauh maan proses produk dibuat
+		-	Sistem memberikan layanan komunikasi antar pengguna
+		-	Sistem memberikan rekomendasi produk yang relevan terhadap kebutuhan pengguna  
+
+
