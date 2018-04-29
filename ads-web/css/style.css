@@ -1,0 +1,513 @@
+/* Start -- Replace Style Materialcss */
+nav {
+	background-color: #2196f3 !important;
+}
+
+nav ul a {
+	font-size: 16px !important;
+}
+nav ul a:hover {
+	background-color: #4caf50 !important;
+}
+
+footer.page-footer {
+	background-color: #2196f3 !important;
+	margin-top: 0px !important;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+	flex: 1 0 auto;
+}
+/* End -- Replace Style Materialcss */
+
+
+/* Start -- Login Page */
+.login {
+	position: absolute;
+	width: 20em;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #F1F1F1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	animation-name: animatebottom;
+	animation-duration: 0.5s
+}
+
+.lheader {
+	position: relative;
+	box-sizing:content-box !important;
+	width: 100%;
+	height: 40px !important;
+	padding: 10px 0px !important;
+	background-color: #2196F3;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	font-family: arial;
+	font-weight: bolder;
+	cursor: default;
+}
+
+.lform {
+	position: relative;
+	width: 100%;
+	background-color: #F1F1F1;
+	height: auto;
+}
+
+.lform input {
+	width: 100%;
+	border: none;
+	margin: 0 !important;
+	padding: 10px 0px !important;
+	background-color: #F1F1F1;
+	border-bottom: 1px solid #F1F1F1;
+	transition-duration: 0.4s;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 3px;
+}
+
+.lform input:focus {
+	border-bottom: 1px solid #4CAF50;
+	background-color: #F1F1F1 !important;
+}
+
+.lform input[type=submit], input[type=button] {
+	width: 100%;
+    background-color: darkgray;
+	border-bottom: none;
+    color: black;
+    padding: 8px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+	font-weight: bolder;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.lform input[type=submit]:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+
+.lform input[type=button]:hover {
+	background-color: red;
+	color: white;
+}
+
+.my-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* End - Login Page */
+
+
+/* Start -  SlideShow*/
+/* Start - Parallax */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url(" ../img/img_parallax.jpg");
+  height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url(" ../img/img_parallax2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url(" ../img/img_parallax3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+
+/***** news *****/
+.content {
+	height: auto;
+	background-color: #A8A8A8;
+	margin: 10px 10px;
+	box-sizing: border-box;
+	padding: 10px;
+	border: solid 1px #000000;
+	margin: auto;
+}
+.card-box {
+	position: relative; 
+	float: left;
+	width: 300px;
+	margin: 0 5px;
+}
+
+.background-wrap {
+	position: fixed;
+	z-index: -1000;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+#video-bg-elem {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.mycontent {
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+}
+.mycontent h1 {
+	text-align: center;
+	font-size: 65px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #fff;
+	padding-top: 18%;
+	padding-bottom: 15%;
+	margin-bottom: 10px;
+}
+.mycontent p {
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 3px;
+	color: #aaa;
+}
+.formcontainer {
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 10px 20px 0px 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formresultcontainer {
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 640px) {
+	.formcontainer, .formresultcontainer {
+		width: 95%;
+	}
+}
+
+.cbcontainer {
+	position: relative;
+	width: 30%;
+	margin: 0 auto;
+	margin: 0 10px;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+	box-sizing: border-box;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 3000px;  
+}
+
+.loader {
+	position: absolute;
+	left: 45%;
+	top: 40%;
+	transform: translate(-40%,-40%);
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-bottom: 16px solid blue;
+  width: 10em;
+  height: 10em;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+/* Chart */
+#myInput {
+	color: white;
+	width: 100%;
+	font-size: 16px;
+	margin-top: 8px;
+	padding: 12px 20px 12px 40px;
+	border: none;
+	box-sizing: border-box;
+	border-bottom: 3px solid #000000;
+	transition-duration: 0.4s;
+	font-weight: bold;
+	text-align: center;
+	background-color: #000000;
+	
+}
+
+#myInput:hover, #myInput:focus {
+	border-bottom: 3px solid #4CAF50;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#myUL li a {
+	border-bottom: 1px solid #ddd;
+	margin-top: -1px; /* Prevent double borders */
+	background-color: #2196f3;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	display: block;
+	cursor: pointer;
+}
+
+#myUL li a:hover {
+	background-color: #4caf50;
+}
+.fullwidth {
+	width: 100%;
+	background-color: white; 
+	clear: both;
+}
+
+.justify {
+	text-align: justify;
+	font-size: 14px;
+	text-align: center;
+}
+
+.mycard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+	margin: 10px 0;
+}
+
+.mycard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardcontainer {
+    padding: 2px 16px;
+	text-align: center;
+}
+
+
+/* tes */
+/* Styles the thumbnail */
+a.lightbox img {
+  height: 150px;
+  border: 3px solid white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  margin: 94px 20px 20px 20px;
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+.lightbox-target {
+  position: fixed;
+	left: 0px;
+  top: -100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+.lightbox-target img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+	right: 0;
+  bottom: 0;
+  max-height: 0%;
+  max-width: 0%;
+  border: 3px solid white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+a.lightbox-close {
+  display: block;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  background: white;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  top: -80px;
+  right: 0;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+a.lightbox-close:before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+a.lightbox-close:after {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+.lightbox-target:target {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+}
+
+.lightbox-target:target img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+  top: 0px;
+}
