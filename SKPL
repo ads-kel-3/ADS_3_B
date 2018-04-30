@@ -119,8 +119,6 @@ Asumsi dan Ketergantungan
 
 
 
-
-
 3.	Deskripsi Kebutuhan
 3.1	Kebutuhan Antarmuka Eksternal
 	3.1.1	Antarmuka pemakai
@@ -141,6 +139,17 @@ Asumsi dan Ketergantungan
 	3.2.1	Diagram Konteks
 	3.2.2	DFD Level
 	3.2.3	Spesifikasi Proses
+		- perangkat lunak dapat menampilkan form sign in
+		- perangkat lunak dapat menampilkan form entri prndaftaran
+		- perangkat lunak dapat emnyimpan masukan dari pengguna berupa data pembeli dan penjual
+		- perangkat lunak dapat meyimpan data pembeli
+		- perangkat lunak dapat menampilkan produk dan harga setiap produk
+		- perangkat lunak dapat menyediakan mode pencarian terhadap produk sesuai inputan pembeli
+		- perangkat lunak dapat menampilkan katalog
+		- perangkat lunak dapat menampilkan form pembelian
+		- perangkat lunak dapat menyimpan data pemesanan
+		- perangkat lunak dapat meyimpan katalog yang dipilih pengguna
+		- perangkat lunak dapat menerima masukan berupa produk yang dipesan oleh pengguna 
 	3.2.4	Data Store
 		user	: Berisi deskripsi pengguna yang dapat menggunakan sistem ini, seperti id, nama, username, password, email,
 			  alamat dan universitas.
@@ -153,6 +162,10 @@ Asumsi dan Ketergantungan
 	3.3.1	E-R Diagram
 
 3.4	Kebutuhan Non-Fungsional
+	
+
+
+
 
 3.5	Batasan Perancangan
 
