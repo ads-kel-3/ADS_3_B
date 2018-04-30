@@ -142,6 +142,12 @@ Asumsi dan Ketergantungan
 	3.2.2	DFD Level
 	3.2.3	Spesifikasi Proses
 	3.2.4	Data Store
+		user	: Berisi deskripsi pengguna yang dapat menggunakan sistem ini, seperti id, nama, username, password, email,
+			  alamat dan universitas.
+		skripsi	: Deskripsi tentang skripsi mahasiswa yang akan didistribusikan produknya
+		produk	: Berisi deskripsi lengkap tentang produk dari skripsi yang dibuat oleh mahasiswa
+		kategori: Merupakan data pengkategorian produk skripsi
+		order	: Data produk skripsi yang telah dipesan
 
 3.3	Kebutuhan Data
 	3.3.1	E-R Diagram
