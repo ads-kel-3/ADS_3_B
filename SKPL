@@ -173,13 +173,13 @@ Asumsi dan Ketergantungan
 	3.3.1	E-R Diagram
 
 3.4	Kebutuhan Non-Fungsional
-	|RS-NF-OUT-007	|Availability 			| Perangkat Lunak harus terus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal								|
-	|SRS-NF-PR-008	|Reliability 			| Kegagalan dalam proses persentase kecocokan data nilai dengan jenis pekerjaan memiliki toleransi satu kali gagal dalam sepuluh kali perhitungan	|
-	|SRS-NF-PR-009	|Portability 			| perangkat lunak dapay dijalankan di seluruh web browser 												|
-	|SRS-NF-OUT-010	|Ergonomy 			| tampilan antar muka web sederhana, responsive, dan mudah difahami oleh pengguna 									|
-	|SRS-NF-PR-011	|Response time 			| proses perhitungan data untuk menampilkan persentase kecocokan dijalankan tidak lebih dari 5 detik 							|																	|
-	|SRS-NF-PR-012	|Security 			| pengamanan sistem menggunkaan fitur TLS dan SSL, serta dapat menjaga privasi user									|
-	|SRS-NF-OUT-013	|Others 1: Tampilan Logo 	| setiap layer harus mengandung logo UM dan logo perancang sistem (apabila ada)
+	|RS-NF-OUT-001	|Availability 			| Perangkat Lunak harus terus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal								|
+	|SRS-NF-PR-002	|Reliability 			| Kegagalan dalam proses persentase kecocokan data nilai dengan jenis pekerjaan memiliki toleransi satu kali gagal dalam sepuluh kali perhitungan	|
+	|SRS-NF-PR-003	|Portability 			| perangkat lunak dapay dijalankan di seluruh web browser 												|
+	|SRS-NF-OUT-04	|Ergonomy 			| tampilan antar muka web sederhana, responsive, dan mudah difahami oleh pengguna 									|
+	|SRS-NF-PR-05	|Response time 			| proses perhitungan data untuk menampilkan persentase kecocokan dijalankan tidak lebih dari 5 detik 							|																	|
+	|SRS-NF-PR-06	|Security 			| pengamanan sistem menggunkaan fitur TLS dan SSL, serta dapat menjaga privasi user									|
+	|SRS-NF-OUT-07	|Others 1: Tampilan Logo 	| setiap layer harus mengandung logo UM dan logo perancang sistem (apabila ada)
 
 3.5	Batasan Perancangan
 	*) Tampilan web dibuat dengan menggunakan Photoshop dan Corel Draw.
