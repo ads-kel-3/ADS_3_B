@@ -122,6 +122,7 @@ Asumsi dan Ketergantungan
 3.	Deskripsi Kebutuhan
 3.1	Kebutuhan Antarmuka Eksternal
 	3.1.1	Antarmuka pemakai
+			*) Tampilan awal web
 			*) Tampilan login
 			*) Tampilan register
 			*) Tampilan homepage
@@ -132,8 +133,17 @@ Asumsi dan Ketergantungan
 			*) Tampilan konfirmasi
 			
 	3.1.2	Antar muka perangkat keras
+			*) Keyboard
+			*) Mouse
+			*) Monitor
+			*) Kabel LAN UTP RJ-45	
+			
 	3.1.3	Antar muka perangkat lunak
+			
+			
 	3.1.4	Antarmuka komunikasi
+			*) Wifi
+			*) Kabel LAN UTP RJ-45
 
 3.2	Kebutuhan Fungsional
 	3.2.1	Diagram Konteks
@@ -150,6 +160,7 @@ Asumsi dan Ketergantungan
 		- perangkat lunak dapat menyimpan data pemesanan
 		- perangkat lunak dapat meyimpan katalog yang dipilih pengguna
 		- perangkat lunak dapat menerima masukan berupa produk yang dipesan oleh pengguna 
+		
 	3.2.4	Data Store
 		user	: Berisi deskripsi pengguna yang dapat menggunakan sistem ini, seperti id, nama, username, password, email,
 			  alamat dan universitas.
@@ -162,13 +173,19 @@ Asumsi dan Ketergantungan
 	3.3.1	E-R Diagram
 
 3.4	Kebutuhan Non-Fungsional
-	
-
-
-
+	|RS-NF-OUT-007	|Availability 			| Perangkat Lunak harus terus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal								|
+	|SRS-NF-PR-008	|Reliability 			| Kegagalan dalam proses persentase kecocokan data nilai dengan jenis pekerjaan memiliki toleransi satu kali gagal dalam sepuluh kali perhitungan	|
+	|SRS-NF-PR-009	|Portability 			| perangkat lunak dapay dijalankan di seluruh web browser 												|
+	|SRS-NF-OUT-010	|Ergonomy 			| tampilan antar muka web sederhana, responsive, dan mudah difahami oleh pengguna 									|
+	|SRS-NF-PR-011	|Response time 			| proses perhitungan data untuk menampilkan persentase kecocokan dijalankan tidak lebih dari 5 detik 							|																	|
+	|SRS-NF-PR-012	|Security 			| pengamanan sistem menggunkaan fitur TLS dan SSL, serta dapat menjaga privasi user									|
+	|SRS-NF-OUT-013	|Others 1: Tampilan Logo 	| setiap layer harus mengandung logo UM dan logo perancang sistem (apabila ada)
 
 3.5	Batasan Perancangan
-
+	*) Tampilan web dibuat dengan menggunakan Photoshop dan Corel Draw.
+	*) Text editor yang digunakan adalah Notepad++ dan/atau Sublime Text.
+	*) Bahasa Pemrograman yang digunakan adalah PHP, MySQL dan HTML
+		
 3.6	Keruntutan (traceability)
 	3.6.1	Data Store vs E-R
 
