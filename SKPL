@@ -40,7 +40,8 @@ Definisi, Istilah dan Singkatan
 Guna memberikan gambaran yang sama terhadap beberapa definisi, istilah dan singkatan yang digunakan di dokumen ini, perlu dijelaskan 
 sebagaimana berikut:
 DFD	: Data Flow Diagram. Diagram yang menggambarkan aliran data. 
-IEEE	: Institute of Electrical and Electronics Engineers, Adalah standart internasional untuk pengembang perangkat lunak
+ERD	: Entity Relationship Diagram adalah representasi grafis dari sistem informasi yang menunjukkan hubungan antara orang, 
+	objek, tempat, konsep atau kejadian di dalam sebuah sistem
 Interface : Antarmuka antara perangkat lunak dan pengguna  
 SKPL	: Spesifikasi Kebutuhan Perangkat Lunak
 SRS	: Software Requirement Specification, Adalah dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
@@ -139,6 +140,8 @@ Asumsi dan Ketergantungan
 			*) Kabel LAN UTP RJ-45	
 			
 	3.1.3	Antar muka perangkat lunak
+			*) Java
+			*) Database MySQL
 			
 			
 	3.1.4	Antarmuka komunikasi
