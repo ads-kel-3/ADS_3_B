@@ -40,7 +40,8 @@ Definisi, Istilah dan Singkatan
 Guna memberikan gambaran yang sama terhadap beberapa definisi, istilah dan singkatan yang digunakan di dokumen ini, perlu dijelaskan 
 sebagaimana berikut:
 DFD	: Data Flow Diagram. Diagram yang menggambarkan aliran data. 
-IEEE	: Institute of Electrical and Electronics Engineers, Adalah standart internasional untuk pengembang perangkat lunak
+ERD	: Entity Relationship Diagram adalah representasi grafis dari sistem informasi yang menunjukkan hubungan antara orang, 
+	objek, tempat, konsep atau kejadian di dalam sebuah sistem
 Interface : Antarmuka antara perangkat lunak dan pengguna  
 SKPL	: Spesifikasi Kebutuhan Perangkat Lunak
 SRS	: Software Requirement Specification, Adalah dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
@@ -119,11 +120,10 @@ Asumsi dan Ketergantungan
 
 
 
-
-
 3.	Deskripsi Kebutuhan
 3.1	Kebutuhan Antarmuka Eksternal
 	3.1.1	Antarmuka pemakai
+			*) Tampilan awal web
 			*) Tampilan login
 			*) Tampilan register
 			*) Tampilan homepage
@@ -134,22 +134,61 @@ Asumsi dan Ketergantungan
 			*) Tampilan konfirmasi
 			
 	3.1.2	Antar muka perangkat keras
+			*) Keyboard
+			*) Mouse
+			*) Monitor
+			*) Kabel LAN UTP RJ-45	
+			
 	3.1.3	Antar muka perangkat lunak
+			*) Java
+			*) Database MySQL
+			
+			
 	3.1.4	Antarmuka komunikasi
+			*) Wifi
+			*) Kabel LAN UTP RJ-45
 
 3.2	Kebutuhan Fungsional
 	3.2.1	Diagram Konteks
 	3.2.2	DFD Level
 	3.2.3	Spesifikasi Proses
+		- perangkat lunak dapat menampilkan form sign in
+		- perangkat lunak dapat menampilkan form entri prndaftaran
+		- perangkat lunak dapat emnyimpan masukan dari pengguna berupa data pembeli dan penjual
+		- perangkat lunak dapat meyimpan data pembeli
+		- perangkat lunak dapat menampilkan produk dan harga setiap produk
+		- perangkat lunak dapat menyediakan mode pencarian terhadap produk sesuai inputan pembeli
+		- perangkat lunak dapat menampilkan katalog
+		- perangkat lunak dapat menampilkan form pembelian
+		- perangkat lunak dapat menyimpan data pemesanan
+		- perangkat lunak dapat meyimpan katalog yang dipilih pengguna
+		- perangkat lunak dapat menerima masukan berupa produk yang dipesan oleh pengguna 
+		
 	3.2.4	Data Store
+		user	: Berisi deskripsi pengguna yang dapat menggunakan sistem ini, seperti id, nama, username, password, email,
+			  alamat dan universitas.
+		skripsi	: Deskripsi tentang skripsi mahasiswa yang akan didistribusikan produknya
+		produk	: Berisi deskripsi lengkap tentang produk dari skripsi yang dibuat oleh mahasiswa
+		kategori: Merupakan data pengkategorian produk skripsi
+		order	: Data produk skripsi yang telah dipesan
 
 3.3	Kebutuhan Data
 	3.3.1	E-R Diagram
 
 3.4	Kebutuhan Non-Fungsional
+	|RS-NF-OUT-001	|Availability 			| Perangkat Lunak harus terus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal								|
+	|SRS-NF-PR-002	|Reliability 			| Kegagalan dalam proses persentase kecocokan data nilai dengan jenis pekerjaan memiliki toleransi satu kali gagal dalam sepuluh kali perhitungan	|
+	|SRS-NF-PR-003	|Portability 			| perangkat lunak dapay dijalankan di seluruh web browser 												|
+	|SRS-NF-OUT-04	|Ergonomy 			| tampilan antar muka web sederhana, responsive, dan mudah difahami oleh pengguna 									|
+	|SRS-NF-PR-05	|Response time 			| proses perhitungan data untuk menampilkan persentase kecocokan dijalankan tidak lebih dari 5 detik 							|																	|
+	|SRS-NF-PR-06	|Security 			| pengamanan sistem menggunkaan fitur TLS dan SSL, serta dapat menjaga privasi user									|
+	|SRS-NF-OUT-07	|Others 1: Tampilan Logo 	| setiap layer harus mengandung logo UM dan logo perancang sistem (apabila ada)
 
 3.5	Batasan Perancangan
-
+	*) Tampilan web dibuat dengan menggunakan Photoshop, Corel Draw, AdobeIllustrator.
+	*) Text editor yang digunakan adalah Notepad++ dan/atau Sublime Text.
+	*) Bahasa Pemrograman yang digunakan adalah PHP, MySQL dan HTML
+		
 3.6	Keruntutan (traceability)
 	3.6.1	Data Store vs E-R
 
