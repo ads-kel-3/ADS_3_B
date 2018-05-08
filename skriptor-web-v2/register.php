@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Big Picture - Start Bootstrap Template</title>
+    <title>Register - Skriptor</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,14 +25,14 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Register</a>
+        <a class="navbar-brand" href="index.php">Register</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home
+              <a class="nav-link" href="index.php">Home
               </a>
             </li>
             <li class="nav-item">
@@ -82,6 +82,10 @@
             <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email">
           </div>
           <div class="form-group">
+            <label for="exampleInputEmail1">Username</label>
+            <input class="form-control" id="exampleInputEmail1" type="text" aria-describedby="emailHelp" placeholder="Enter Username">
+          </div>
+          <div class="form-group">
             <div class="form-row">
               <div class="col-md-6">
                 <label for="exampleInputPassword1">Password</label>
@@ -96,10 +100,6 @@
           <div class="form-group">
             <label for="university">University</label>
             <input class="form-control" id="university" type="text" placeholder="University">
-          </div>
-          <div class="form-group">
-            <label for="address">Address</label>
-            <input class="form-control" id="address" type="email" placeholder="Address">
           </div>
           <a class="btn btn-primary btn-block" href="login.php">Register</a>
         </form>

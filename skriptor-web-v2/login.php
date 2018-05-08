@@ -44,7 +44,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Big Picture - Start Bootstrap Template</title>
+    <title>Login - Skriptor</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -60,14 +60,14 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+        <a class="navbar-brand" href="index.php">SKRIPTOR</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+              <a class="nav-link" href="index.php">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -102,8 +102,8 @@
       <div class="card-body">
         <form action="login.php" method="POST">
           <div class="form-group">
-            <label for="usename">Email address</label>
-            <input class="form-control" id="username" name="username" type="text" aria-describedby="emailHelp" placeholder="Enter email" required="">
+            <label for="usename">Username</label>
+            <input class="form-control" id="username" name="username" type="text" aria-describedby="emailHelp" placeholder="Username" required="">
           </div>
           <div class="form-group">
             <label for="password">Password</label>
