@@ -185,7 +185,7 @@ Asumsi dan Ketergantungan
 	|SRS-NF-OUT-07	|Others 1: Tampilan Logo 	| setiap layer harus mengandung logo UM dan logo perancang sistem (apabila ada)
 
 3.5	Batasan Perancangan
-	*) Tampilan web dibuat dengan menggunakan Photoshop dan Corel Draw.
+	*) Tampilan web dibuat dengan menggunakan Photoshop, Corel Draw, AdobeIllustrator.
 	*) Text editor yang digunakan adalah Notepad++ dan/atau Sublime Text.
 	*) Bahasa Pemrograman yang digunakan adalah PHP, MySQL dan HTML
 		
