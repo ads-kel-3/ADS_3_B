@@ -257,7 +257,7 @@
               <thead>
                 <tr>
                   <th>Name</th>
-                  <th>Items</th>
+                  <th>Jobs</th>
                   <th>Address</th>
                   <th>Qty</th>
                   <th>Order date</th>
@@ -266,76 +266,76 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Tiger Nixon</td>
-                  <td>System Architect</td>
+                  <td>Soleh kell</td>
+                  <td>Teacher</td>
                   <td>Edinburgh</td>
-                  <td>61</td>
-                  <td>2011/04/25</td>
-                  <td>$320,800</td>
+                  <td>27</td>
+                  <td>2017/08/2</td>
+                  <td>Rp1000,000</td>
                 </tr>
                 <tr>
-                  <td>Garrett Winters</td>
+                  <td>Wati lorry</td>
                   <td>Accountant</td>
                   <td>Tokyo</td>
-                  <td>63</td>
-                  <td>2011/07/25</td>
-                  <td>$170,750</td>
+                  <td>25</td>
+                  <td>2017/09/20</td>
+                  <td>Rp1,100,000</td>
                 </tr>
                 <tr>
-                  <td>Ashton Cox</td>
-                  <td>Junior Technical Author</td>
+                  <td>Asfan Cox</td>
+                  <td>college student</td>
                   <td>San Francisco</td>
-                  <td>66</td>
-                  <td>2009/01/12</td>
-                  <td>$86,000</td>
+                  <td>22</td>
+                  <td>2018/01/12</td>
+                  <td>Rp700,000</td>
                 </tr>
                 <tr>
                   <td>Cedric Kelly</td>
                   <td>Senior Javascript Developer</td>
                   <td>Edinburgh</td>
                   <td>22</td>
-                  <td>2012/03/29</td>
-                  <td>$433,060</td>
+                  <td>2018/01/20</td>
+                  <td>Rp1,700,000</td>
                 </tr>
                 <tr>
-                  <td>Airi Satou</td>
+                  <td>Airi Satu</td>
                   <td>Accountant</td>
                   <td>Tokyo</td>
                   <td>33</td>
-                  <td>2008/11/28</td>
-                  <td>$162,700</td>
+                  <td>2018/02/2</td>
+                  <td>Rp900,000</td>
                 </tr>
                 <tr>
                   <td>Brielle Williamson</td>
                   <td>Integration Specialist</td>
                   <td>New York</td>
                   <td>61</td>
-                  <td>2012/12/02</td>
-                  <td>$372,000</td>
+                  <td>2018/03/02</td>
+                  <td>Rp1,300,000</td>
                 </tr>
                 <tr>
-                  <td>Herrod Chandler</td>
+                  <td>Herro style</td>
                   <td>Sales Assistant</td>
                   <td>San Francisco</td>
-                  <td>59</td>
-                  <td>2012/08/06</td>
-                  <td>$137,500</td>
+                  <td>35</td>
+                  <td>2018/03/23</td>
+                  <td>650,000</td>
                 </tr>
                 <tr>
-                  <td>Rhona Davidson</td>
+                  <td>Rhohaye</td>
                   <td>Integration Specialist</td>
                   <td>Tokyo</td>
-                  <td>55</td>
-                  <td>2010/10/14</td>
-                  <td>$327,900</td>
+                  <td>27</td>
+                  <td>2018/04/10</td>
+                  <td>Rp1,250,000</td>
                 </tr>
                 <tr>
-                  <td>Colleen Hurst</td>
+                  <td>Collin Hurt</td>
                   <td>Javascript Developer</td>
                   <td>San Francisco</td>
-                  <td>39</td>
-                  <td>2009/09/15</td>
-                  <td>$205,500</td>
+                  <td>37</td>
+                  <td>2018/05/15</td>
+                  <td>Rp1,450,000</td>
                 </tr>
               </tbody>
             </table>
