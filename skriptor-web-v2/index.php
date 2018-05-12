@@ -80,9 +80,9 @@
 
           <h1 class="my-4"><?php echo($_SESSION['username'])?>'s Shop</h1>
           <div class="list-group">
-            <a href="#" class="list-group-item">Category 1</a>
-            <a href="#" class="list-group-item">Category 2</a>
-            <a href="#" class="list-group-item">Category 3</a>
+            <a href="#" class="list-group-item active">Media Pembelajaran</a>
+            <a href="#" class="list-group-item">Modul</a>
+            <a href="#" class="list-group-item">Multimedia</a>
           </div>
 
         </div>
@@ -98,13 +98,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide">
+                <img class="d-block img-fluid" src="crs1.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
+                <img class="d-block img-fluid" src="crs2.png" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide">
+                <img class="d-block img-fluid" src="crs3.jpg" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -121,13 +121,13 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <a href="item1.php"><img class="card-img-top" src="item1.png" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Item One</a>
-                  </h4>
-                  <h5>$24.99</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                  <h5 class="card-title">
+                    <a href="item1.php">Media Pembelajaran Sistem Informasi Manajemen Berbasis Multimedia Interaktif</a>
+                  </h5>
+                  <h5>Rp. 50.000,-</h5>
+                  <p class="card-text">Pengembangan Media Pembeljaran Berbasis Multimedia Interaktif Menggunakan Adobe Flash CS5 untuk SMK Kelas XI Kompetensi Keahlian Administrasi Perkantoran Pada Kompetensi Dasar Menguraikan Sistem Informasi Manajemen [Nurul Anggraeni]</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -137,13 +137,13 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <a href="#"><img class="card-img-top" src="item2.jpeg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Item Two</a>
-                  </h4>
-                  <h5>$24.99</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                  <h5 class="card-title">
+                    <a href="#">Game Edukasi Pengenalan Nama Hewan Dalam Bahasa Inggris </a>
+                  </h5>
+                  <h5>Rp. 100.000,-</h5>
+                  <p class="card-text">Pengembangan Game Edukasi Pengenalan Nama Hewan Dalam Bahasa Inggris Sebagai Media Pembelajaran Siswa SD Berbasis Macromedia Flash [Ghea Putri Fatma Dewi]</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -153,13 +153,13 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <a href="#"><img class="card-img-top" src="item3.jpeg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Item Three</a>
-                  </h4>
-                  <h5>$24.99</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                  <h5 class="card-title">
+                    <a href="#">Modul Pembelajaran Keterampilan Membaca Dan Menulis Bahasa Jerman</a>
+                  </h5>
+                  <h5>Rp. 70.000,-</h5>
+                  <p class="card-text">Pengembangan Modul Pembelajaran Keterampilan Membaca Dan Menulis Bahasa Jerman Tema Shule Untuk Siswa Kelas X SMA Brawijaya Smart School [Lusi Dwi Megawati]</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -174,7 +174,7 @@
                   <h4 class="card-title">
                     <a href="#">Item Four</a>
                   </h4>
-                  <h5>$24.99</h5>
+                  <h5>Rp. 0.000,-</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                 </div>
                 <div class="card-footer">
@@ -190,7 +190,7 @@
                   <h4 class="card-title">
                     <a href="#">Item Five</a>
                   </h4>
-                  <h5>$24.99</h5>
+                  <h5>Rp. 0.000,-</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
                 </div>
                 <div class="card-footer">
@@ -206,7 +206,7 @@
                   <h4 class="card-title">
                     <a href="#">Item Six</a>
                   </h4>
-                  <h5>$24.99</h5>
+                  <h5>Rp. 0.000,-</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                 </div>
                 <div class="card-footer">

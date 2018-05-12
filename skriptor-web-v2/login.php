@@ -91,7 +91,8 @@
         <div class="row">
           <div class="col-lg-6">
             <h1 class="mt-5">Skriptor</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptates rerum eveniet sapiente repellat esse, doloremque quod recusandae deleniti nostrum assumenda vel beatae sed aut modi nesciunt porro quisquam voluptatem.</p>
+            <p>Salurkan ide anda untuk generasi yang gemilang <br>
+            dengan Kemudahan menyalurkan produk skripsi hingga tepat sasaran.</p>
           </div>
         </div>
       </div>
@@ -115,7 +116,7 @@
                 <input class="form-check-input" type="checkbox"> Remember Password</label>
             </div>
           </div>
-          <input class="btn btn-primary btn-block" type="submit" name="login" id="login" value="submit">
+          <input class="btn btn-primary btn-block" type="submit" name="login" id="login" value="Login">
         </form>
         <div class="text-center">
           <a class="d-block small mt-3" href="register.php">Register an Account</a>
